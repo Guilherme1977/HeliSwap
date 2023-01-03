@@ -62,9 +62,9 @@ function App() {
                       <Route path="single-sided-staking" element={<SingleSidedStaking />} />
                       <Route path="heliverse" element={<HeliVerse />} />
                       <Route path="deploy-farms" element={<MaintainFarms />} />
-                      <Route path="maintain-farms" element={<MaintainFarms />} />
+                      <Route path="manage-farms" element={<MaintainFarms />} />
                       <Route
-                        path="maintain-farms/:campaignAddress"
+                        path="manage-farms/:campaignAddress"
                         element={<MaintainFarmDetails />}
                       />
                       <Route path="styleguide" element={<Styleguide />} />
